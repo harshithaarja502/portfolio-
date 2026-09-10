@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ARJA HARSHITHA NAGA SRI LAKSHMI — B.Tech Computer Science student and aspiring Data Analyst.">
+<title>Arja Harshitha Naga Sri Lakshmi | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#050914;--panel:rgba(13,24,45,.68);--line:rgba(122,184,255,.18);--text:#eef6ff;--muted:#a8bad0;--cyan:#53d9ff;--blue:#6f8cff;--shadow:0 25px 70px rgba(0,0,0,.38)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 15% 10%,#102b4d 0,transparent 28%),radial-gradient(circle at 85% 20%,#15234e 0,transparent 30%),var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}
+#loader{position:fixed;inset:0;z-index:1000;background:#050914;display:grid;place-items:center;transition:opacity .6s,visibility .6s}.loader-orb{width:74px;height:74px;border-radius:50%;border:2px solid rgba(83,217,255,.25);border-top-color:var(--cyan);animation:spin 1s linear infinite;box-shadow:0 0 35px rgba(83,217,255,.3)}#loader.hide{opacity:0;visibility:hidden}@keyframes spin{to{transform:rotate(360deg)}}
+#particles{position:fixed;inset:0;pointer-events:none;z-index:-1}.dot{position:absolute;width:3px;height:3px;background:#8fdfff;border-radius:50%;opacity:.35;animation:float 8s ease-in-out infinite}@keyframes float{50%{transform:translate3d(30px,-50px,0);opacity:.75}}
+nav{position:fixed;top:16px;left:50%;transform:translateX(-50%);width:min(1100px,calc(100% - 28px));z-index:100;padding:12px 18px;border:1px solid var(--line);background:rgba(5,9,20,.72);backdrop-filter:blur(18px);border-radius:22px;display:flex;align-items:center;justify-content:space-between;box-shadow:var(--shadow)}.brand{font-family:"Space Grotesk";font-weight:800;letter-spacing:.5px}.brand span{color:var(--cyan)}.links{display:flex;gap:18px;font-size:13px;color:var(--muted)}.links a{transition:.25s}.links a:hover{color:var(--cyan);transform:translateY(-2px)}.menu{display:none;background:none;border:0;color:white;font-size:24px}
+section{width:min(1120px,calc(100% - 32px));margin:auto;padding:105px 0 45px}.hero{min-height:100vh;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:55px;padding-top:120px}.eyebrow{display:inline-flex;padding:8px 12px;border:1px solid var(--line);border-radius:99px;background:rgba(83,217,255,.06);color:#bcefff;font-size:12px;font-weight:700;letter-spacing:1.3px;text-transform:uppercase}.hero h1{font-family:"Space Grotesk";font-size:clamp(42px,6.2vw,78px);line-height:.98;margin:20px 0 14px;letter-spacing:-3px}.hero h1 span{background:linear-gradient(90deg,#fff,#8edfff,#899cff);-webkit-background-clip:text;color:transparent}.subtitle{font-size:clamp(18px,2.1vw,25px);color:#c9d8ec;font-weight:600}.intro{color:var(--muted);font-size:16px;line-height:1.8;max-width:680px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:13px 18px;border-radius:13px;border:1px solid var(--line);background:linear-gradient(135deg,rgba(83,217,255,.18),rgba(111,140,255,.12));font-weight:700;transition:.3s;box-shadow:0 10px 30px rgba(0,0,0,.18)}.btn:hover{transform:translateY(-4px) rotateX(5deg);border-color:rgba(83,217,255,.55)}.btn.secondary{background:rgba(255,255,255,.03)}
+.scene{height:480px;display:grid;place-items:center;perspective:1000px}.cube{width:250px;height:250px;position:relative;transform-style:preserve-3d;animation:orbit 16s linear infinite}.face{position:absolute;inset:0;border:1px solid rgba(83,217,255,.3);background:linear-gradient(135deg,rgba(83,217,255,.12),rgba(111,140,255,.04));backdrop-filter:blur(10px);box-shadow:inset 0 0 50px rgba(83,217,255,.05),0 0 45px rgba(83,217,255,.08)}.front{transform:translateZ(125px)}.back{transform:rotateY(180deg) translateZ(125px)}.right{transform:rotateY(90deg) translateZ(125px)}.left{transform:rotateY(-90deg) translateZ(125px)}.top{transform:rotateX(90deg) translateZ(125px)}.bottom{transform:rotateX(-90deg) translateZ(125px)}@keyframes orbit{to{transform:rotateX(18deg) rotateY(378deg) rotateZ(4deg)}}.screen{position:absolute;inset:24px;display:flex;flex-direction:column;justify-content:center;gap:13px}.bar{height:9px;border-radius:20px;background:linear-gradient(90deg,var(--cyan),var(--blue));box-shadow:0 0 18px rgba(83,217,255,.2)}.bar:nth-child(2){width:70%}.bar:nth-child(3){width:48%}.chart{height:90px;display:flex;align-items:end;gap:8px;margin-top:10px}.chart i{display:block;flex:1;border-radius:5px 5px 1px 1px;background:linear-gradient(180deg,var(--cyan),rgba(111,140,255,.25));animation:pulse 2s ease-in-out infinite}.chart i:nth-child(1){height:35%}.chart i:nth-child(2){height:60%}.chart i:nth-child(3){height:45%}.chart i:nth-child(4){height:82%}.chart i:nth-child(5){height:68%}@keyframes pulse{50%{filter:brightness(1.35);transform:scaleY(1.05)}}
+.section-title{font-family:"Space Grotesk";font-size:clamp(30px,4vw,46px);margin:0 0 10px}.section-lead{color:var(--muted);line-height:1.7;max-width:720px}.glass{border:1px solid var(--line);background:var(--panel);backdrop-filter:blur(18px);border-radius:25px;box-shadow:var(--shadow)}
+.about-card{padding:30px;line-height:1.8;color:#c8d6e8;margin-top:24px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:28px}.card{padding:25px;transition:transform .35s,border-color .35s;transform-style:preserve-3d}.card:hover{transform:perspective(700px) rotateX(3deg) rotateY(-3deg) translateY(-7px);border-color:rgba(83,217,255,.45)}.tag{color:var(--cyan);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1px}.card h3{margin:10px 0 8px;font-family:"Space Grotesk";font-size:21px}.muted{color:var(--muted);line-height:1.65}.timeline{position:relative;margin-top:30px;padding-left:28px}.timeline:before{content:"";position:absolute;left:5px;top:0;bottom:0;width:1px;background:linear-gradient(var(--cyan),transparent)}.timeline .card{margin-bottom:20px;position:relative}.timeline .card:before{content:"";position:absolute;left:-29px;top:28px;width:9px;height:9px;border:2px solid var(--cyan);border-radius:50%;background:var(--bg);box-shadow:0 0 18px var(--cyan)}
+.skill-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:28px}.skill{min-height:150px;display:flex;flex-direction:column;justify-content:space-between}.skill .icon{font-size:28px}.skill strong{font-family:"Space Grotesk";font-size:18px}.certs{grid-template-columns:repeat(3,1fr)}.cert{min-height:130px}.contact{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:stretch}.contact-card{padding:30px}.contact-item{padding:15px 0;border-bottom:1px solid rgba(255,255,255,.07)}.contact-item:last-child{border-bottom:0}.contact-item small{display:block;color:#7f94ae;margin-bottom:5px}.contact-item a{color:#d9edff;word-break:break-word}footer{text-align:center;color:#70849e;font-size:12px;padding:45px 20px 55px}
+.reveal{opacity:0;transform:translateY(25px);transition:opacity .7s,transform .7s}.reveal.show{opacity:1;transform:none}
+@media(max-width:800px){nav{padding:11px 15px}.links{display:none;position:absolute;top:60px;left:0;right:0;flex-direction:column;padding:16px;background:rgba(5,9,20,.94);border:1px solid var(--line);border-radius:18px}.links.open{display:flex}.menu{display:block}.hero{grid-template-columns:1fr;padding-top:145px;gap:10px}.scene{height:330px}.cube{width:190px;height:190px}.front{transform:translateZ(95px)}.back{transform:rotateY(180deg) translateZ(95px)}.right{transform:rotateY(90deg) translateZ(95px)}.left{transform:rotateY(-90deg) translateZ(95px)}.top{transform:rotateX(90deg) translateZ(95px)}.bottom{transform:rotateX(-90deg) translateZ(95px)}.grid,.contact{grid-template-columns:1fr}.skill-grid{grid-template-columns:repeat(2,1fr)}section{padding-top:85px}.hero h1{letter-spacing:-2px}}
+@media(max-width:460px){.skill-grid,.certs{grid-template-columns:1fr}.hero h1{font-size:43px}.scene{height:290px}}
+</style>
+</head>
+<body>
+<div id="loader"><div class="loader-orb"></div></div>
+<div id="particles"></div>
+<nav><a class="brand" href="#home">ARJA<span>.</span></a><button class="menu" aria-label="Open menu">☰</button><div class="links"><a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#certificates">Certificates</a><a href="#languages">Languages</a><a href="#contact">Contact</a></div></nav>
+
+<main>
+<section id="home" class="hero">
+<div class="reveal">
+<div class="eyebrow">B.Tech Computer Science Student</div>
+<h1>ARJA <span>HARSHITHA</span><br>NAGA SRI LAKSHMI</h1>
+<div class="subtitle">B.Tech Computer Science Student | Aspiring Data Analyst</div>
+<p class="intro">B-tech Computer Science student aspiring Data Analyst with a strong foundation in Python, data analysis, and AI/ML, seeking an entry-level opportunity to apply analytical skills.</p>
+<div class="actions"><a class="btn" href="#contact">Contact Me</a><a class="btn secondary" href="https://www.linkedin.com/in/harshitha-naga-sri-lakshmi-arja-9b5453376" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+</div>
+<div class="scene reveal" aria-label="3D data analytics visual">
+<div class="cube"><div class="face front"><div class="screen"><div class="tag">Data Analytics</div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="chart"><i></i><i></i><i></i><i></i><i></i></div></div></div><div class="face back"></div><div class="face right"></div><div class="face left"></div><div class="face top"></div><div class="face bottom"></div></div>
+</div>
+</section>
+
+<section id="about">
+<div class="reveal"><div class="tag">01 — Profile</div><h2 class="section-title">About</h2><p class="section-lead">A concise profile based directly on the resume.</p></div>
+<div class="glass about-card reveal">B-tech Computer Science student aspiring Data Analyst with a strong foundation in Python, data analysis, and AI/ML, seeking an entry-level opportunity to apply analytical skills and build practical experience.</div>
+</section>
+
+<section id="education">
+<div class="reveal"><div class="tag">02 — Academic Journey</div><h2 class="section-title">Education</h2></div>
+<div class="timeline">
+<div class="glass card reveal"><div class="tag">B.Tech</div><h3>Dhanekula Institute of Engineering and Technology</h3><p class="muted"><strong>CGPA:</strong> 8.94<br>Vijayawada, India</p></div>
+<div class="glass card reveal"><div class="tag">Diploma</div><h3>Diviseema Polytechnic College</h3><p class="muted"><strong>Percentage:</strong> 86.4<br>April 2022 – April 2025<br>Avanigadda, India</p></div>
+</div>
+</section>
+
+<section id="skills">
+<div class="reveal"><div class="tag">03 — Technical Skills</div><h2 class="section-title">Skills</h2><p class="section-lead">Exact skills listed in the resume, grouped by the resume categories.</p></div>
+<div class="skill-grid">
+<div class="glass card skill reveal"><div class="icon">⌘</div><div><div class="tag">Programming Languages</div><strong>Python</strong></div></div>
+<div class="glass card skill reveal"><div class="icon">▣</div><div><div class="tag">Databases</div><strong>SQL (Basics)</strong></div></div>
+<div class="glass card skill reveal"><div class="icon">▤</div><div><div class="tag">Tools</div><strong>Excel</strong></div></div>
+<div class="glass card skill reveal"><div class="icon">◫</div><div><div class="tag">Tools</div><strong>Jupyter Notebook</strong></div></div>
+<div class="glass card skill reveal"><div class="icon">◉</div><div><div class="tag">Computer Skills</div><strong>Basic Computer Skills</strong></div></div>
+</div>
+</section>
+
+<section id="certificates">
+<div class="reveal"><div class="tag">04 — Credentials</div><h2 class="section-title">Certificates</h2><p class="section-lead">Certificate providers and learning activities listed in the resume.</p></div>
+<div class="grid certs">
+<div class="glass card cert reveal"><div class="tag">Certificate</div><h3>Oracle</h3></div>
+<div class="glass card cert reveal"><div class="tag">Certificate</div><h3>Coursera</h3></div>
+<div class="glass card cert reveal"><div class="tag">Certificate</div><h3>Infosys Springboard</h3></div>
+<div class="glass card cert reveal"><div class="tag">Certificate</div><h3>Google</h3></div>
+<div class="glass card cert reveal"><div class="tag">Tutorial</div><h3>IITB Spoken Tutorial</h3></div>
+<div class="glass card cert reveal"><div class="tag">Workshop</div><h3>College Workshops</h3></div>
+</div>
+</section>
+
+<section id="languages">
+<div class="reveal"><div class="tag">05 — Communication</div><h2 class="section-title">Languages</h2></div>
+<div class="grid">
+<div class="glass card reveal"><div class="tag">Language</div><h3>English</h3></div>
+<div class="glass card reveal"><div class="tag">Language</div><h3>Telugu</h3></div>
+<div class="glass card reveal"><div class="tag">Language</div><h3>Hindi (Basic)</h3></div>
+</div>
+</section>
+
+<section id="summary">
+<div class="reveal"><div class="tag">06 — Career Objective</div><h2 class="section-title">Professional Summary</h2></div>
+<div class="glass about-card reveal">Motivated B.Tech Computer Science student and aspiring software professional. Quick learner with a positive attitude and a strong willingness to learn new technologies and develop technical skills. Seeking an entry-level opportunity to gain practical experience, apply academic knowledge, and contribute to a professional team.</div>
+</section>
+
+<section id="contact">
+<div class="reveal"><div class="tag">07 — Get In Touch</div><h2 class="section-title">Contact</h2><p class="section-lead">Contact information provided in the resume.</p></div>
+<div class="contact" style="margin-top:28px">
+<div class="glass contact-card reveal">
+<div class="contact-item"><small>Email</small><a href="mailto:harshithaarja168@gmail.com">harshithaarja168@gmail.com</a></div>
+<div class="contact-item"><small>Phone</small><a href="tel:+918790268788">+91 8790268788</a></div>
+<div class="contact-item"><small>Location</small>Vijayawada, India</div>
+<div class="contact-item"><small>LinkedIn</small><a href="https://www.linkedin.com/in/harshitha-naga-sri-lakshmi-arja-9b5453376" target="_blank" rel="noopener">harshitha-naga-sri-lakshmi-arja</a></div>
+</div>
+<div class="glass contact-card reveal" style="display:flex;flex-direction:column;justify-content:center;align-items:flex-start">
+<div class="tag">Open to opportunity</div><h3 style="font-family:'Space Grotesk';font-size:28px;margin:12px 0">Let's connect.</h3><p class="muted">Seeking an entry-level opportunity to gain practical experience, apply academic knowledge, and contribute to a professional team.</p><div class="actions"><a class="btn" href="mailto:harshithaarja168@gmail.com">Contact Me</a><a class="btn secondary" href="https://www.linkedin.com/in/harshitha-naga-sri-lakshmi-arja-9b5453376" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+</div>
+</div>
+</section>
+</main>
+<footer>© 2026 ARJA HARSHITHA NAGA SRI LAKSHMI</footer>
+
+<script>
+window.addEventListener('load',()=>setTimeout(()=>document.getElementById('loader').classList.add('hide'),450));
+const p=document.getElementById('particles');for(let i=0;i<55;i++){const d=document.createElement('i');d.className='dot';d.style.left=Math.random()*100+'%';d.style.top=Math.random()*100+'%';d.style.animationDelay=(Math.random()*8)+'s';d.style.animationDuration=(6+Math.random()*7)+'s';p.appendChild(d)}
+const menu=document.querySelector('.menu'),links=document.querySelector('.links');menu.onclick=()=>links.classList.toggle('open');links.querySelectorAll('a').forEach(a=>a.onclick=()=>links.classList.remove('open'));
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(x=>obs.observe(x));
+document.addEventListener('mousemove',e=>{const x=(e.clientX/innerWidth-.5)*2,y=(e.clientY/innerHeight-.5)*2;document.querySelectorAll('.cube').forEach(c=>c.style.animationPlayState='running')});
+</script>
+</body>
+</html>
